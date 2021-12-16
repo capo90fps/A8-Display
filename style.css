@@ -1,22 +1,5 @@
-.box {
-    width: 100px;
-    height: 100px;
-    border: solid 2px blue;
-    background-color: lightblue;
-    color: white;
-    text-align: center;
-    /* 
-    - block: it dosen't move, but you can put w/h
-    - inline: it doesn't respect the width and height
-    - inline-block: allows to use width and height */
-    display: inline-block;
-
-}
-
-
-/* classwork.html */
-
 body{
+    
     font-family: 'Montserrat', sans-serif;
     background-color:rgb(245, 245, 245);
 }
@@ -70,4 +53,103 @@ button {
     background-color: lightgrey;
     border-radius: 8px;
     border: none;
+}
+
+/* hdhsfdhdfd */
+
+
+
+
+
+
+
+
+
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color:rgb(245, 245, 245);
+}
+.card {
+    width: 300px;
+    height: 600px;
+    background-color:white;
+    border-radius: 15px;
+    box-shadow: 4px 4px 20px gainsboro ;
+}
+
+.price h2,p {
+    display: inline-block;
+}
+
+.price h2 {
+    margin-left: 20px;
+}
+
+.description1 {
+    margin-left: 20px;
+}
+
+.description1 h2 {
+    color: #42B9F4;
+}
+
+.description1 p {
+    width: 250px;
+    border-bottom: 1px solid lightgray;
+}
+
+/* layer, speaker,network */
+.card img {
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+
+/* check */
+.item img {
+    width: 15px;
+    height: 15px;
+}
+
+.button1 {
+    margin-left: 20px;
+    width: 250px;
+    padding: 8px;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    border: 4px;
+}
+.button2 {
+    margin-left: 20px;
+    width: 250px;
+    padding: 8px;
+    background-color: #44D853;
+    border-radius: 8px;
+    border: 4px;
+    }
+    
+.cards1 {
+    display: inline-block;
+}
+
+.cards2 {
+    display: inline-block;
+}
+
+.cards3 {
+    display: inline-block;
+}
+
+.description2 h2 {
+    color: #44D853;
+    margin-left: 30px;
+}
+
+.description2 p {
+    width: 250px;
+    border-bottom: 1px solid lightgray;
+    margin-left: 30px;
 }
